@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/30511564b5.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="css/style.css" />
+      <script
+        src="https://kit.fontawesome.com/30511564b5.js"
+        crossorigin="anonymous"
+      ></script>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap"
+        rel="stylesheet"
+      />
+    </head>
   <body class="container">
     <div class="nav-bar">
       <!-- logo image -->
@@ -24,7 +29,7 @@
       <!-- links to other pages -->
 
       <ul class="nav-bar--navigationLinks">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html"><i class="fas fa-paw icon-current-page"></i>Home<i class="fas fa-paw icon-current-page"></i></a></li>
         <li><a href="about-us+contact-us.html">About us / Contact us</a></li>
         <li><a href="services.html"> Services </a></li>
         <li>
@@ -102,28 +107,58 @@
 
   </div>
 
-    <footer>
-
-      <div class="companyInfo">
+  <footer>
+    <div class="companyInfo">
+      <div class="companyInfo--top">
         <h3 class="companyInfo--header">The Royal Groomers</h3>
-        <p class="companyInfo--bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum, ad quasi porro hic deserunt fuga magnam repellendus nemo. Nobis.</p>
+        <p class="companyInfo--bio">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          dolorum, ad quasi porro hic deserunt fuga magnam repellendus nemo.
+          Nobis.
+        </p>
       </div>
 
-      <div class="companyContact">
-        <h3 class="companyContact--header">Contact details</h3>
-        <p class="companyContact--phone"><i class="fas fa-phone-square-alt pad-right fa-3x"></i>01733 887713</p>
-        <p class="companyContact--email"><i class="fas fa-envelope-square pad-right fa-3x"></i>example@testing.com</p>
-        
+      <div class="companyInfo--legalInfo">
+        <hi> &copy; The Royal Groomers</hi>
+
+        <a href="#" class="companyInfo--legalInfo--TC"
+          >Terms and Conditions</a
+        >
+        <a href="#" class="companyInfo--legalInfo--privacy">Privacy</a>
+        <a href="#" class="companyInfo--legalInfo--slavery"
+          >Modern Slavery Statement</a
+        >
       </div>
+    </div>
 
-      <div class="companyInstagram">
-        <h3 class="companyInstagram--header">The Royal Groomers</h3>
-        <p class="companyInstagram--bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum, ad quasi porro hic deserunt fuga magnam repellendus nemo. Nobis.</p>
-      </div>
+    <div class="companyContact">
+      <h3 class="companyContact--header">Contact details</h3>
+      <p class="companyContact--phone">
+        <i class="fas fa-phone-square-alt mar-right fa-2x"></i>01733 887713
+      </p>
+      <p class="companyContact--email">
+        <i class="fas fa-envelope-square mar-right fa-2x"></i
+        >example@testing.com
+      </p>
+    </div>
 
-
-
-    </footer>
+    <div class="companyOpeningHours">
+      <h3 class="companyOpeningHours--header">Opening Hours</h3>
+      <p class="companyOpeningHours--bio">
+        Please contact me to in working hours to confirm if i have an avalible
+        slot
+      </p>
+      <ul class="companyOpeningHours--dandt">
+        <li>Monday - 09:00 am - 06:00pm</li>
+        <li>Tuesday - 09:00 am - 06:00pm</li>
+        <li>Wednesday - 09:00 am - 06:00pm</li>
+        <li>Thursday - <strong>Closed</strong></li>
+        <li>Friday - 09:00 am - 06:00pm</li>
+        <li>Saturday - 09:00 am - 06:00pm</li>
+        <li>Sunday - 09:00 am - 06:00pm</li>
+      </ul>
+    </div>
+  </footer>
 
   </body>
 
